@@ -119,6 +119,7 @@
   width: 363px;
 }
 .experts-info__img {
+  position: relative;
   width: 521.17px;
   height: 284px;
 
@@ -127,5 +128,8 @@
   border-radius: 8px;
 }
 .experts-img {
+  position: absolute;
+  left: 94.41px;
+  top: 24.17px;
   margin: auto;
 }

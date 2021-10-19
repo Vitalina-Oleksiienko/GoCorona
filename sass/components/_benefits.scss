@@ -1,0 +1,84 @@
+.benefits {
+}
+.benefits-container {
+}
+.benefits-title {
+  margin-top: 79.59px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.benefits-text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: var(--text-color);
+  width: 600.9px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.benefits-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+.benefits-list__item {
+  width: 278.17px;
+  height: 276.52px;
+
+  background: var(--list-color);
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+}
+.benefits-list__item--first {
+  padding: 36.65px 17.82px;
+  text-align: center;
+}
+.benefits-list__item--second {
+  padding: 36.88px 25.45px;
+  text-align: center;
+}
+.benefits-list__item--third {
+  padding: 40.21px 25.45px;
+  text-align: center;
+}
+.benefits-list__item--title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 138.5%;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: var(--title-color);
+}
+.benefits-list__item--text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: var(--text-color);
+}
+.benefits-list__item--icon {
+  //margin-top: 36.65px;
+  //margin-left: 88.63px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31px;
+}
