@@ -1,14 +1,108 @@
 .support {
+  background: var(--list-color);
+}
+.support-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.support-bgd {
+  //position: relative;
 }
 .support-figure__first {
+  position: absolute;
+  width: 147px;
+  height: 147px;
+  left: 100px;
+  top: 79px;
+
+  background: #ec5863;
+  border-radius: 30px;
 }
 .support-figure__second {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 361px;
+  top: 437px;
+
+  background: #ec5863;
+  border-radius: 30px;
 }
 .support-figure__third {
+  position: absolute;
+  z-index: 1;
+  width: 206px;
+  height: 27px;
+  left: 183px;
+  top: 579px;
+
+  background: rgba(240, 240, 240, 0.49);
+  border-radius: 16px;
 }
 .support-figure__fourth {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 132px;
+  top: 544px;
+
+  background: #ec5863;
+  border-radius: 30px;
 }
 .support-img {
+  margin-top: 110px;
+  margin-left: 87px;
+  margin-bottom: 106px;
+  width: 294px;
+  height: 518px;
+  left: 171px;
+  top: 835px;
+
+  filter: drop-shadow(2px 4px 32px rgba(0, 0, 0, 0.12));
+  border-radius: 16px;
 }
-.support-text {
+.support-info {
+  margin-top: 231px;
+  margin-left: 187px;
+}
+.support-info__text {
+  margin: 0 0 24px 0;
+  width: 363px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+
+  letter-spacing: 0.08em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: var(--text-color);
+}
+.support-info__title {
+  margin: 0 0 12px 0;
+  width: 379px;
+}
+.support-info__title--first {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 126%;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: var(--title-color);
+}
+.support-info__title--second {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 126%;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: var(--user-color);
 }
