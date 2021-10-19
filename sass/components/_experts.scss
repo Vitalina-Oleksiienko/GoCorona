@@ -5,7 +5,7 @@
   //position: relative;
 }
 .experts-bgd {
-  position: relative;
+  //position: relative;
   padding-top: 103.93px;
 }
 .experts-figure__first {
@@ -42,7 +42,8 @@
   transform: rotate(-30deg);
 }
 .experts-statistics {
-  //margin-top: 103.93px;
+  position: relative;
+  //padding-top: 103.93px;
   margin-left: auto;
   margin-right: auto;
   width: 654px;
@@ -53,6 +54,7 @@
   border-radius: 16px;
 }
 .experts-statistics__list {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

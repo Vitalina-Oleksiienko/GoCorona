@@ -165,9 +165,11 @@ summary {
 }
 
 .header-nav {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 43px;
 }
 
 .header-logo {
@@ -303,7 +305,7 @@ summary {
   margin-right: 0;
   position: absolute;
   z-index: 2;
-  left: 47.95%;
+  left: 42.95%;
   top: 16.46%;
 }
 
@@ -356,7 +358,7 @@ summary {
   position: absolute;
   width: 295.29px;
   height: 700px;
-  right: 0;
+  right: 51px;
   top: 0px;
   background: var(--user-color);
   border-radius: 30px 0px 0px 30px;
@@ -374,7 +376,7 @@ summary {
 }
 
 .footer__img {
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 .support {
@@ -488,7 +490,6 @@ summary {
 }
 
 .experts-bgd {
-  position: relative;
   padding-top: 103.93px;
 }
 
@@ -526,6 +527,7 @@ summary {
 }
 
 .experts-statistics {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 654px;
@@ -536,6 +538,7 @@ summary {
 }
 
 .experts-statistics__list {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
