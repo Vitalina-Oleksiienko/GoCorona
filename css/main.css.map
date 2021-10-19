@@ -8,7 +8,8 @@
         "../sass/base/_container.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_footer.scss",
-        "../sass/components/_support.scss"
+        "../sass/components/_support.scss",
+        "../sass/components/_experts.scss"
     ],
     "names": [],
     "file": "main.css"
