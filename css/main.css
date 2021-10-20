@@ -668,8 +668,25 @@ summary {
   padding-bottom: 116px;
 }
 
+@media screen and (max-width: 767.98px) and (min-width: 320px) {
+  .experts-info {
+    max-width: 460px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .experts-info__text {
   padding-top: 50px;
+}
+
+@media screen and (max-width: 767.98px) and (min-width: 320px) {
+  .experts-info__text {
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
 
 .experts-info__text--title {

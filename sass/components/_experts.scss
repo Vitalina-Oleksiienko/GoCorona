@@ -104,9 +104,20 @@
   justify-content: space-between;
   margin-top: 79.07px;
   padding-bottom: 116px;
+  @include mobile {
+    max-width: 460px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .experts-info__text {
   padding-top: 50px;
+  @include mobile {
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
 .experts-info__text--title {
   margin: 0 0 5px 0;
