@@ -135,6 +135,11 @@
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
 }
+.experts-info__img:hover,
+.experts-info__img:focus {
+  transform: scale(1.1);
+  transition: var(--animation);
+}
 .experts-img {
   position: absolute;
   left: 94.41px;
