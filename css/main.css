@@ -175,7 +175,26 @@ summary {
 .header-logo {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
   padding-top: 37.6px;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  transform: scale(1.1);
+}
+
+.header-logo__icon {
+  animation: icon 5s linear 0s infinite;
+}
+
+@keyframes icon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .header-logo__text {
@@ -224,6 +243,12 @@ summary {
   margin-right: 40px;
 }
 
+.header-list__item:hover,
+.header-list__item:focus {
+  color: var(--accent-color);
+  transform: scale(1.1);
+}
+
 .header-button {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -236,13 +261,16 @@ summary {
   height: 40px;
   margin-top: 37px;
   background: var(--accent-color);
+  border-color: var(--accent-color);
   border-radius: 5px;
 }
 
-.header-button:hover {
+.header-button:hover,
+.header-button:focus {
   cursor: pointer;
   background: none;
   box-shadow: 0 0 10px 0 var(--accent-color) inset, 0 0 10px 4px var(--accent-color);
+  transition: var(--animation);
 }
 
 .header-title {
@@ -296,7 +324,17 @@ summary {
   width: 144px;
   height: 40px;
   background: var(--user-color);
+  border-color: var(--user-color);
   border-radius: 5px;
+}
+
+.header-button__bottom:hover,
+.header-button__bottom:focus {
+  cursor: pointer;
+  background: none;
+  color: var(--user-color);
+  box-shadow: 0 0 10px 0 var(--user-color) inset, 0 0 10px 4px var(--user-color);
+  transition: var(--animation);
 }
 
 .header-hero {
