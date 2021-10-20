@@ -1,6 +1,4 @@
 .header {
-  //position: relative;
-  //height: 700px;
   background: var(--peculiarity-color);
 }
 .header-main {
@@ -123,11 +121,9 @@
   transition: var(--animation);
 }
 .header-title {
-  //display: ;
   width: 497px;
-  margin-top: 170px;
-  //margin-left: 10px;
-  margin-bottom: 12px;
+  margin: 170px 0 12px 0;
+
   @include mobile {
     margin-top: 60px;
   }
@@ -171,7 +167,6 @@
   }
 }
 .header-button__bottom {
-  //margin-bottom: 148px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -213,9 +208,8 @@
   position: absolute;
   z-index: 2;
   left: 42.95%;
-  //right: 4.56%;
   top: 16.46%;
-  //bottom: 80.45%;
+
   animation: pulse 4s infinite;
   @keyframes pulse {
     0% {
