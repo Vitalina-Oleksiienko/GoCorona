@@ -18,6 +18,10 @@
       transition: var(--animation);
     }
   }
+
+  @include mobile {
+    margin-right: 0;
+  }
 }
 .footer__img {
   padding-top: 10px;
