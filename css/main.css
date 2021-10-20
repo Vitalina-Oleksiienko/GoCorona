@@ -559,7 +559,7 @@ summary {
   height: 65.75px;
   left: 176px;
   top: 174.93px;
-  background: #ec5863;
+  background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
 }
@@ -570,7 +570,7 @@ summary {
   height: 96.96px;
   left: 458.25px;
   top: 67px;
-  background: #ec5863;
+  background: var(--user-color);
   border-radius: 30px;
   transform: rotate(105deg);
 }
@@ -581,7 +581,7 @@ summary {
   height: 127.47px;
   right: 143.11px;
   top: 102.61px;
-  background: #ec5863;
+  background: var(--user-color);
   border-radius: 30px;
   transform: rotate(-30deg);
 }
@@ -689,6 +689,12 @@ summary {
   left: 94.41px;
   top: 24.17px;
   margin: auto;
+}
+
+.experts-svg {
+  position: absolute;
+  top: 121.61px;
+  left: 243.19px;
 }
 
 .benefits-title {
