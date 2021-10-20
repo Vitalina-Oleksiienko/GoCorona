@@ -239,6 +239,10 @@ summary {
   border-radius: 5px;
 }
 
+.header-button:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
 .header-title {
   width: 497px;
   margin-top: 170px;
@@ -490,6 +494,7 @@ summary {
 }
 
 .experts-bgd {
+  position: relative;
   padding-top: 103.93px;
 }
 
@@ -497,8 +502,8 @@ summary {
   position: absolute;
   width: 65.75px;
   height: 65.75px;
-  left: 218px;
-  top: 162.93px;
+  left: 176px;
+  top: 174.93px;
   background: #ec5863;
   border-radius: 16px;
   transform: rotate(-30deg);
@@ -509,7 +514,7 @@ summary {
   width: 96.96px;
   height: 96.96px;
   left: 458.25px;
-  top: 53px;
+  top: 67px;
   background: #ec5863;
   border-radius: 30px;
   transform: rotate(105deg);
@@ -519,8 +524,8 @@ summary {
   position: absolute;
   width: 127.47px;
   height: 127.47px;
-  right: 173.11px;
-  top: 79.61px;
+  right: 143.11px;
+  top: 102.61px;
   background: #ec5863;
   border-radius: 30px;
   transform: rotate(-30deg);
@@ -528,6 +533,7 @@ summary {
 
 .experts-statistics {
   position: relative;
+  z-index: 1;
   margin-left: auto;
   margin-right: auto;
   width: 654px;
@@ -579,12 +585,12 @@ summary {
 .experts-info {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-top: 79.07px;
   padding-bottom: 116px;
 }
 
 .experts-info__text {
-  margin-right: 74.83px;
   padding-top: 50px;
 }
 
@@ -609,6 +615,7 @@ summary {
   position: relative;
   width: 521.17px;
   height: 284px;
+  margin-right: 25px;
   background: var(--list-color);
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
