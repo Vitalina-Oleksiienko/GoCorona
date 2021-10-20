@@ -41,6 +41,12 @@
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
 }
+.benefits-list__item:hover,
+.benefits-list__item:focus {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: var(--animation);
+}
 .benefits-list__item--first {
   padding: 36.65px 17.82px;
   text-align: center;

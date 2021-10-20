@@ -79,6 +79,7 @@
 }
 .header-list__item:hover,
 .header-list__item:focus {
+  cursor: pointer;
   color: var(--accent-color);
   transform: scale(1.1);
 }
@@ -200,6 +201,11 @@
 .header-video {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
+}
+.header-video:hover,
+.header-video:focus {
+  transform: scale(1.01);
 }
 .header-icon {
   margin-right: 12px;

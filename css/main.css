@@ -245,6 +245,7 @@ summary {
 
 .header-list__item:hover,
 .header-list__item:focus {
+  cursor: pointer;
   color: var(--accent-color);
   transform: scale(1.1);
 }
@@ -361,6 +362,12 @@ summary {
 .header-video {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
+}
+
+.header-video:hover,
+.header-video:focus {
+  transform: scale(1.01);
 }
 
 .header-icon {
@@ -417,6 +424,14 @@ summary {
 .footer-link {
   margin-right: 56.59px;
   margin-bottom: 46.9px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.1);
+    transition: var(--animation);
+  }
 }
 
 .footer__img {
@@ -607,6 +622,14 @@ summary {
   color: var(--user-color);
 }
 
+.experts-statistics__item:hover,
+.experts-statistics__item:focus {
+  cursor: pointer;
+  color: var(--accent-color);
+  transition: var(--animation);
+  transform: scale(1.1);
+}
+
 .experts__item-text {
   margin: 0;
   padding-top: 5px;
@@ -705,6 +728,13 @@ summary {
   background: var(--list-color);
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
+}
+
+.benefits-list__item:hover,
+.benefits-list__item:focus {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: var(--animation);
 }
 
 .benefits-list__item--first {
