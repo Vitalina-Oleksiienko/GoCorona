@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .footer-link {
   margin-right: 56.59px;

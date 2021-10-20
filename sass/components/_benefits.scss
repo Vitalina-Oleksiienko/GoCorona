@@ -6,6 +6,11 @@
   margin-top: 79.59px;
   margin-bottom: 14px;
   text-align: center;
+  @include mobile {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 460px;
+  }
 }
 .benefits-text {
   font-family: "Rubik", sans-serif;
@@ -25,6 +30,9 @@
   margin-bottom: 46.17px;
   margin-top: 0;
   padding-bottom: 20px;
+  @include mobile {
+    max-width: 460px;
+  }
 }
 .benefits-list {
   //position: relative;
@@ -32,6 +40,12 @@
   display: flex;
   justify-content: space-around;
   padding-left: 0;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 .benefits-list__item {
   width: 278.17px;
@@ -40,6 +54,9 @@
   background: var(--list-color);
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
+  @include mobile {
+    margin-bottom: 20px;
+  }
 }
 .benefits-list__item:hover,
 .benefits-list__item:focus {
@@ -103,6 +120,10 @@
   background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
+  @include mobile {
+    top: -2px;
+    left: 329.47px;
+  }
 }
 .benefits-bgd__second {
   position: absolute;
@@ -115,6 +136,10 @@
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(105deg);
+  @include mobile {
+    top: 222px;
+    left: 632.47px;
+  }
 }
 .benefits-bgd__third {
   position: absolute;
@@ -127,6 +152,10 @@
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(-30deg);
+  @include mobile {
+    left: 289.24px;
+    top: 511.75px;
+  }
 }
 .benefits-bgd__fourth {
   position: absolute;
@@ -139,6 +168,10 @@
   background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
+  @include mobile {
+    left: 642.24px;
+    top: 823.75px;
+  }
 }
 .benefits-card {
   position: relative;
