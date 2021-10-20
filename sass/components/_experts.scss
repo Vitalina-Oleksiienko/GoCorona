@@ -1,10 +1,16 @@
 .experts {
   background: var(--peculiarity-color);
+  @include tablet {
+    padding: 40px 0;
+  }
 }
 
 .experts-bgd {
   position: relative;
   padding-top: 103.93px;
+  @include tablet {
+    padding-top: 80px;
+  }
 }
 .experts-figure__first {
   position: absolute;
@@ -16,6 +22,14 @@
   background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
+  @include tablet {
+    left: 68px;
+    top: 209.93px;
+  }
+  @include mobile {
+    left: 38px;
+    top: 201.93px;
+  }
 }
 .experts-figure__second {
   position: absolute;
@@ -27,6 +41,14 @@
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(105deg);
+  @include tablet {
+    left: 282.25px;
+    top: 44px;
+  }
+  @include mobile {
+    left: 194.25px;
+    top: 50px;
+  }
 }
 .experts-figure__third {
   position: absolute;
@@ -38,6 +60,14 @@
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(-30deg);
+  @include tablet {
+    right: 33.11px;
+    top: 158.61px;
+  }
+  @include mobile {
+    right: 39.11px;
+    top: 159.61px;
+  }
 }
 .experts-statistics {
   position: relative;
@@ -50,6 +80,9 @@
   background: var(--list-color);
   box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
   border-radius: 16px;
+  @include mobile {
+    width: 600px;
+  }
 }
 .experts-statistics__list {
   position: relative;
@@ -104,6 +137,12 @@
   justify-content: space-between;
   margin-top: 79.07px;
   padding-bottom: 116px;
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
   @include mobile {
     max-width: 460px;
     flex-direction: column;
@@ -114,9 +153,14 @@
 }
 .experts-info__text {
   padding-top: 50px;
+  @include tablet {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
   @include mobile {
     margin-bottom: 30px;
     text-align: center;
+    padding-top: 0;
   }
 }
 .experts-info__text--title {
@@ -145,6 +189,13 @@
   background: var(--list-color);
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
+  @include tablet {
+    margin-right: 0;
+  }
+  @include mobile {
+    width: 490px;
+    margin-right: 0;
+  }
 }
 .experts-info__img:hover,
 .experts-info__img:focus {
