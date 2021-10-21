@@ -190,6 +190,7 @@ summary {
 
 .header-main {
   position: relative;
+  background: var(--peculiarity-color);
 }
 
 .header-nav {
@@ -882,6 +883,11 @@ summary {
 .experts {
   background: var(--peculiarity-color);
   padding: 40px 0;
+}
+
+.experts-container {
+  width: 100%;
+  background: var(--peculiarity-color);
 }
 
 .experts-bgd {
