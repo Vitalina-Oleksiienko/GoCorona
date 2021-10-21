@@ -8,13 +8,13 @@
 }
 .up:hover,
 .up:focus {
-  fill: var(--logo-color);
+  fill: var(--list-color);
 }
 .scrollup {
   position: absolute;
   z-index: 3;
   top: -50px;
-  left: 262px;
+  right: 262px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -28,8 +28,4 @@
   left: 15px;
   top: 12px;
   position: absolute;
-}
-.scrollup_svg {
-  width: 50px;
-  height: 50px;
 }
