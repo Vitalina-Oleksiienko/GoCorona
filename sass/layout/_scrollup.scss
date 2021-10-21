@@ -1,0 +1,35 @@
+.footer-section {
+  position: relative;
+}
+.up {
+  width: 50px;
+  height: 50px;
+  fill: var(--list-color);
+}
+.up:hover,
+.up:focus {
+  fill: var(--logo-color);
+}
+.scrollup {
+  position: absolute;
+  z-index: 3;
+  top: -50px;
+  left: 262px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--user-color);
+}
+.scrollup:hover,
+.scrollup:focus {
+  background-color: #f3bebe;
+}
+.arrow {
+  left: 15px;
+  top: 12px;
+  position: absolute;
+}
+.scrollup_svg {
+  width: 50px;
+  height: 50px;
+}
