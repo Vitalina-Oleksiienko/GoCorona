@@ -20,9 +20,6 @@
     align-items: center;
   }
 }
-.support-bgd {
-  //position: relative;
-}
 .support-figure__first {
   position: absolute;
   width: 147px;
@@ -111,30 +108,23 @@
   filter: drop-shadow(2px 4px 32px rgba(0, 0, 0, 0.12));
   border-radius: 16px;
   @include mini {
-    margin-left: 0;
-    margin-bottom: 60px;
+    margin: 0 0 60px 0;
     width: 230px;
     height: 360px;
   }
   @include mobile {
-    margin-left: 0;
-    margin-bottom: 60px;
+    margin: 0 0 60px 0;
     width: 230px;
     height: 360px;
   }
 }
 .support-info {
-  margin-top: 165px;
-  margin-left: 187px;
+  margin: 165px 0 0 187px;
   @include mini {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
   }
   @include mobile {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
   }
 }
 .support-info__text {
@@ -145,7 +135,6 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 138.5%;
-
   letter-spacing: 0.08em;
   font-feature-settings: "pnum" on, "lnum" on;
 

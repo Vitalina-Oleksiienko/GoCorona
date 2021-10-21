@@ -217,8 +217,7 @@ summary {
   .header-nav {
     justify-content: space-between;
     max-width: 560px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
@@ -226,8 +225,7 @@ summary {
   .header-nav {
     justify-content: space-between;
     max-width: 560px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
@@ -283,8 +281,7 @@ summary {
   flex-direction: row;
   list-style: none;
   margin: 0;
-  padding-left: 0;
-  padding-top: 17px;
+  padding: 17px 0 0 0;
 }
 
 .header-list__item {
@@ -649,8 +646,7 @@ summary {
 }
 
 .footer-link {
-  margin-right: 56.59px;
-  margin-bottom: 46.9px;
+  margin: 0 56.59px 46.9px 0;
   animation: pulse 2s infinite;
 }
 
@@ -817,8 +813,7 @@ summary {
 
 @media screen and (max-width: 319.98px) {
   .support-img {
-    margin-left: 0;
-    margin-bottom: 60px;
+    margin: 0 0 60px 0;
     width: 230px;
     height: 360px;
   }
@@ -826,31 +821,25 @@ summary {
 
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
   .support-img {
-    margin-left: 0;
-    margin-bottom: 60px;
+    margin: 0 0 60px 0;
     width: 230px;
     height: 360px;
   }
 }
 
 .support-info {
-  margin-top: 165px;
-  margin-left: 187px;
+  margin: 165px 0 0 187px;
 }
 
 @media screen and (max-width: 319.98px) {
   .support-info {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
   }
 }
 
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
   .support-info {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
   }
 }
 
@@ -981,8 +970,7 @@ summary {
 .experts-statistics {
   position: relative;
   z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 654px;
   height: 117px;
   background: var(--list-color);
@@ -1062,8 +1050,7 @@ summary {
     max-width: 460px;
     flex-direction: column;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
@@ -1072,8 +1059,7 @@ summary {
     max-width: 460px;
     flex-direction: column;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
@@ -1103,6 +1089,7 @@ summary {
 
 .experts-info__text--about {
   margin: 0 0 24px 0;
+  width: 363px;
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1111,7 +1098,6 @@ summary {
   letter-spacing: 0.08em;
   font-feature-settings: "pnum" on, "lnum" on;
   color: var(--text-color);
-  width: 363px;
 }
 
 .experts-info__img {
@@ -1186,23 +1172,20 @@ summary {
 }
 
 .benefits-title {
-  margin-top: 39px;
-  margin-bottom: 14px;
+  margin: 39px 0 14px 0;
   text-align: center;
 }
 
 @media screen and (max-width: 319.98px) {
   .benefits-title {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 460px;
   }
 }
 
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
   .benefits-title {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 460px;
   }
 }
@@ -1218,10 +1201,7 @@ summary {
   font-feature-settings: "pnum" on, "lnum" on;
   color: var(--text-color);
   width: 600.9px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 46.17px;
-  margin-top: 0;
+  margin: 0 auto 46.17px auto;
   padding-bottom: 20px;
 }
 
@@ -1327,9 +1307,7 @@ summary {
 }
 
 .benefits-list__item--icon {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 31px;
+  margin: 0 auto 31px auto;
 }
 
 .benefits-bgd__first {
