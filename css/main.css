@@ -625,6 +625,7 @@ summary {
 }
 
 .footer-comtainer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -1427,10 +1428,6 @@ summary {
 .benefits-card {
   position: relative;
   padding-bottom: 74.83px;
-}
-
-.footer-section {
-  position: relative;
 }
 
 .up {
