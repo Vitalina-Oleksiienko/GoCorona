@@ -185,6 +185,7 @@ summary {
 
 .header {
   background: var(--peculiarity-color);
+  padding: 40px 0 0 0;
 }
 
 .header-main {
@@ -221,19 +222,6 @@ summary {
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  padding-top: 37.6px;
-}
-
-@media screen and (max-width: 319.98px) {
-  .header-logo {
-    padding-top: 32.6px;
-  }
-}
-
-@media screen and (max-width: 767.98px) and (min-width: 320px) {
-  .header-logo {
-    padding-top: 32.6px;
-  }
 }
 
 .header-logo:hover,
@@ -283,7 +271,7 @@ summary {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  padding-top: 51px;
+  padding-top: 17px;
 }
 
 .header-list__item {
@@ -334,7 +322,6 @@ summary {
   color: var(--additional-color);
   width: 130px;
   height: 40px;
-  margin-top: 37px;
   background: var(--accent-color);
   border-color: var(--accent-color);
   border-radius: 5px;
@@ -613,7 +600,7 @@ summary {
   width: 295.29px;
   height: 700px;
   right: 51px;
-  top: 0px;
+  top: -40px;
   background: var(--user-color);
   border-radius: 30px 0px 0px 30px;
 }
@@ -628,6 +615,10 @@ summary {
   .header-bgd {
     display: none;
   }
+}
+
+.footer {
+  padding: 30px 0;
 }
 
 .footer-comtainer {
@@ -669,6 +660,7 @@ summary {
 
 .support {
   background: var(--list-color);
+  padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1151.98px) {
@@ -704,7 +696,7 @@ summary {
   width: 147px;
   height: 147px;
   left: 100px;
-  top: 79px;
+  top: 9px;
   background: var(--user-color);
   border-radius: 30px;
 }
@@ -714,7 +706,7 @@ summary {
     width: 100px;
     height: 100px;
     left: 361px;
-    top: 79px;
+    top: 0;
   }
 }
 
@@ -723,7 +715,7 @@ summary {
     width: 100px;
     height: 100px;
     left: 361px;
-    top: 79px;
+    top: 0;
   }
 }
 
@@ -732,22 +724,22 @@ summary {
   width: 77px;
   height: 77px;
   left: 361px;
-  top: 437px;
+  top: 369px;
   background: var(--user-color);
   border-radius: 30px;
 }
 
 @media screen and (max-width: 319.98px) {
   .support-figure__second {
-    left: 179px;
-    top: 407px;
+    left: 159px;
+    top: 325px;
   }
 }
 
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
   .support-figure__second {
-    left: 179px;
-    top: 407px;
+    left: 159px;
+    top: 325px;
   }
 }
 
@@ -757,7 +749,7 @@ summary {
   width: 206px;
   height: 27px;
   left: 183px;
-  top: 579px;
+  top: 507px;
   background: rgba(240, 240, 240, 0.49);
   border-radius: 16px;
 }
@@ -766,7 +758,7 @@ summary {
   .support-figure__third {
     width: 165px;
     left: 203px;
-    top: 429px;
+    top: 360px;
   }
 }
 
@@ -774,7 +766,7 @@ summary {
   .support-figure__third {
     width: 165px;
     left: 203px;
-    top: 429px;
+    top: 360px;
   }
 }
 
@@ -783,7 +775,7 @@ summary {
   width: 77px;
   height: 77px;
   left: 132px;
-  top: 544px;
+  top: 476px;
   background: var(--user-color);
   border-radius: 30px;
 }
@@ -801,7 +793,7 @@ summary {
 }
 
 .support-img {
-  margin-top: 110px;
+  margin-top: 39px;
   margin-left: 87px;
   margin-bottom: 106px;
   width: 294px;
@@ -831,7 +823,7 @@ summary {
 }
 
 .support-info {
-  margin-top: 231px;
+  margin-top: 165px;
   margin-left: 187px;
 }
 
@@ -891,6 +883,7 @@ summary {
 
 .experts {
   background: var(--peculiarity-color);
+  padding: 40px 0;
 }
 
 .experts-bgd {

@@ -1,5 +1,6 @@
 .support {
   background: var(--list-color);
+  padding: 40px 0;
   @include tablet {
     padding: 40px 0;
   }
@@ -27,7 +28,7 @@
   width: 147px;
   height: 147px;
   left: 100px;
-  top: 79px;
+  top: 9px;
 
   background: var(--user-color);
   border-radius: 30px;
@@ -35,13 +36,13 @@
     width: 100px;
     height: 100px;
     left: 361px;
-    top: 79px;
+    top: 0;
   }
   @include mobile {
     width: 100px;
     height: 100px;
     left: 361px;
-    top: 79px;
+    top: 0;
   }
 }
 .support-figure__second {
@@ -49,17 +50,17 @@
   width: 77px;
   height: 77px;
   left: 361px;
-  top: 437px;
+  top: 369px;
 
   background: var(--user-color);
   border-radius: 30px;
   @include mini {
-    left: 179px;
-    top: 407px;
+    left: 159px;
+    top: 325px;
   }
   @include mobile {
-    left: 179px;
-    top: 407px;
+    left: 159px;
+    top: 325px;
   }
 }
 .support-figure__third {
@@ -68,19 +69,19 @@
   width: 206px;
   height: 27px;
   left: 183px;
-  top: 579px;
+  top: 507px;
 
   background: rgba(240, 240, 240, 0.49);
   border-radius: 16px;
   @include mini {
     width: 165px;
     left: 203px;
-    top: 429px;
+    top: 360px;
   }
   @include mobile {
     width: 165px;
     left: 203px;
-    top: 429px;
+    top: 360px;
   }
 }
 .support-figure__fourth {
@@ -88,7 +89,7 @@
   width: 77px;
   height: 77px;
   left: 132px;
-  top: 544px;
+  top: 476px;
 
   background: var(--user-color);
   border-radius: 30px;
@@ -100,7 +101,7 @@
   }
 }
 .support-img {
-  margin-top: 110px;
+  margin-top: 39px;
   margin-left: 87px;
   margin-bottom: 106px;
   width: 294px;
@@ -124,7 +125,7 @@
   }
 }
 .support-info {
-  margin-top: 231px;
+  margin-top: 165px;
   margin-left: 187px;
   @include mini {
     margin-top: 0;

@@ -1,5 +1,6 @@
 .header {
   background: var(--peculiarity-color);
+  padding: 40px 0 0 0;
 }
 .header-main {
   position: relative;
@@ -9,6 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   margin-right: 43px;
   @include mini {
     justify-content: space-between;
@@ -27,12 +29,12 @@
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  padding-top: 37.6px;
+  //padding-top: 37.6px;
   @include mini {
-    padding-top: 32.6px;
+    //padding-top: 32.6px;
   }
   @include mobile {
-    padding-top: 32.6px;
+    //padding-top: 32.6px;
   }
 }
 .header-logo:hover,
@@ -78,7 +80,7 @@
   list-style: none;
   margin: 0;
   padding-left: 0;
-  padding-top: 51px;
+  padding-top: 17px;
 }
 .header-list__item {
   font-family: "Raleway", sans-serif;
@@ -122,7 +124,7 @@
 
   width: 130px;
   height: 40px;
-  margin-top: 37px;
+  //margin-top: 37px;
 
   background: var(--accent-color);
   border-color: var(--accent-color);
@@ -348,7 +350,7 @@
   width: 295.29px;
   height: 700px;
   right: 51px;
-  top: 0px;
+  top: -40px;
 
   background: var(--user-color);
   border-radius: 30px 0px 0px 30px;
