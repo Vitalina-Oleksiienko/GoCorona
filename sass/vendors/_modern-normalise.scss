@@ -17,8 +17,13 @@ html {
 }
 
 body {
-  width: min-content;
   margin: 0;
+  @include mini {
+    width: max-content;
+  }
+  @include mobile {
+    width: max-content;
+  }
 }
 
 body {
