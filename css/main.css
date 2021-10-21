@@ -740,14 +740,14 @@ summary {
 @media screen and (max-width: 319.98px) {
   .support-figure__second {
     left: 159px;
-    top: 325px;
+    top: 299px;
   }
 }
 
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
   .support-figure__second {
     left: 159px;
-    top: 325px;
+    top: 299px;
   }
 }
 
@@ -1070,7 +1070,7 @@ summary {
   .experts-info__text {
     margin-bottom: 30px;
     text-align: center;
-    padding-top: 0;
+    padding-top: 40px;
   }
 }
 
@@ -1078,7 +1078,7 @@ summary {
   .experts-info__text {
     margin-bottom: 30px;
     text-align: center;
-    padding-top: 0;
+    padding-top: 40px;
   }
 }
 
