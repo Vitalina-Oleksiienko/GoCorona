@@ -8,7 +8,7 @@
 
 .experts-bgd {
   position: relative;
-  padding-top: 103.93px;
+  padding-top: 43px;
   // @include tablet {
   //   padding-top: 80px;
   // }
@@ -18,18 +18,18 @@
   width: 65.75px;
   height: 65.75px;
   left: 176px;
-  top: 174.93px;
+  top: 114.93px;
 
   background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
   @include mini {
     left: 38px;
-    top: 201.93px;
+    top: 132.93px;
   }
   @include mobile {
     left: 38px;
-    top: 201.93px;
+    top: 132.93px;
   }
 }
 .experts-figure__second {
@@ -37,7 +37,7 @@
   width: 96.96px;
   height: 96.96px;
   left: 458.25px;
-  top: 67px;
+  top: 0px;
 
   background: var(--user-color);
   border-radius: 30px;
@@ -56,18 +56,18 @@
   width: 127.47px;
   height: 127.47px;
   right: 143.11px;
-  top: 102.61px;
+  top: 40.61px;
 
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(-30deg);
   @include mini {
     right: 39.11px;
-    top: 159.61px;
+    top: -31.39px;
   }
   @include mobile {
     right: 39.11px;
-    top: 159.61px;
+    top: -31.39px;
   }
 }
 .experts-statistics {
@@ -140,7 +140,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 79.07px;
-  padding-bottom: 116px;
+  padding-bottom: 76px;
   @include mini {
     max-width: 460px;
     flex-direction: column;
