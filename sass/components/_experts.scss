@@ -151,15 +151,11 @@
   padding-top: 50px;
   @include mini {
     padding: 40px 0 30px 0;
-    //margin-bottom: 30px;
     text-align: center;
-    //padding-top: 40px;
   }
   @include mobile {
     padding: 40px 0 30px 0;
-    //margin-bottom: 30px;
     text-align: center;
-    //padding-top: 40px;
   }
 }
 .experts-info__text--title {
