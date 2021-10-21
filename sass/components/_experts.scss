@@ -80,6 +80,9 @@
   background: var(--list-color);
   box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
   border-radius: 16px;
+  @include mini {
+    width: 530px;
+  }
   @include mobile {
     width: 530px;
   }
