@@ -10,10 +10,10 @@
   flex-direction: row;
   justify-content: space-between;
   margin-right: 43px;
-  @include tablet {
-    justify-content: space-around;
-    margin-right: 0;
-  }
+  // @include tablet {
+  //   justify-content: space-around;
+  //   margin-right: 0;
+  // }
   @include mobile {
     justify-content: space-between;
     max-width: 560px;
@@ -26,7 +26,7 @@
   flex-direction: row;
   text-decoration: none;
   padding-top: 37.6px;
-  @include tablet {
+  @include mobile {
     padding-top: 32.6px;
   }
 }
@@ -130,10 +130,10 @@
 .header-title {
   width: 497px;
   margin: 170px 0 12px 0;
-  @include tablet {
-    width: 397px;
-    margin-top: 60px;
-  }
+  // @include tablet {
+  //   width: 397px;
+  //   margin-top: 60px;
+  // }
 
   @include mobile {
     margin-top: 60px;
@@ -206,11 +206,11 @@
   position: relative;
   display: flex;
   margin-bottom: 148px;
-  @include tablet {
-    z-index: 2;
-    padding-bottom: 60px;
-    margin-bottom: 0;
-  }
+  // @include tablet {
+  //   z-index: 2;
+  //   padding-bottom: 60px;
+  //   margin-bottom: 0;
+  // }
   @include mobile {
     flex-direction: column;
     align-items: center;
@@ -233,12 +233,12 @@
       transition: var(--animation);
     }
   }
-  @include tablet {
-    left: 38.95%;
-    top: 14.46%;
-    width: 447px;
-    height: 321px;
-  }
+  // @include tablet {
+  //   left: 38.95%;
+  //   top: 14.46%;
+  //   width: 447px;
+  //   height: 321px;
+  // }
 
   @include mobile {
     width: 254px;
@@ -252,10 +252,10 @@
 .header-img__main {
   width: 547px;
   height: 394.42px;
-  @include tablet {
-    width: 447px;
-    height: 321px;
-  }
+  // @include tablet {
+  //   width: 447px;
+  //   height: 321px;
+  // }
   @include mobile {
     width: 286px;
     height: 216px;
@@ -347,7 +347,7 @@
     // background: var(--accent-color);
     // border-radius: 0px 0px 30px 30px;
   }
-  @include tablet {
-    display: none;
-  }
+  // @include tablet {
+  //   display: none;
+  // }
 }

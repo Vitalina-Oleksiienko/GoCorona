@@ -7,12 +7,12 @@
   margin-top: 79.59px;
   margin-bottom: 14px;
   text-align: center;
-  @include tablet {
-    margin: 0 auto;
+  // @include tablet {
+  //   margin: 0 auto;
 
-    padding-bottom: 14px;
-    max-width: 460px;
-  }
+  //   padding-bottom: 14px;
+  //   max-width: 460px;
+  // }
   @include mobile {
     margin-left: auto;
     margin-right: auto;
@@ -37,9 +37,9 @@
   margin-bottom: 46.17px;
   margin-top: 0;
   padding-bottom: 20px;
-  @include tablet {
-    margin-bottom: 0;
-  }
+  // @include tablet {
+  //   margin-bottom: 0;
+  // }
   @include mobile {
     max-width: 460px;
   }
@@ -50,11 +50,11 @@
   display: flex;
   justify-content: space-around;
   padding-left: 0;
-  @include tablet {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
+  // @include tablet {
+  //   flex-direction: column;
+  //   align-items: center;
+  //   margin: 0;
+  // }
 
   @include mobile {
     flex-direction: column;
@@ -69,9 +69,9 @@
   background: var(--list-color);
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
-  @include tablet {
-    margin-bottom: 30px;
-  }
+  // @include tablet {
+  //   margin-bottom: 30px;
+  // }
   @include mobile {
     margin-bottom: 20px;
   }
@@ -138,10 +138,10 @@
   background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
-  @include tablet {
-    left: 149.47px;
-    top: 52px;
-  }
+  // @include tablet {
+  //   left: 149.47px;
+  //   top: 52px;
+  // }
   @include mobile {
     top: -2px;
     left: 123.47px;
@@ -158,10 +158,10 @@
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(105deg);
-  @include tablet {
-    left: 446.31px;
-    top: 232.08px;
-  }
+  // @include tablet {
+  //   left: 446.31px;
+  //   top: 232.08px;
+  // }
   @include mobile {
     top: 222px;
     left: 403.47px;
@@ -178,10 +178,10 @@
   background: var(--user-color);
   border-radius: 30px;
   transform: rotate(-30deg);
-  @include tablet {
-    left: 124.24px;
-    top: 517.75px;
-  }
+  // @include tablet {
+  //   left: 124.24px;
+  //   top: 517.75px;
+  // }
   @include mobile {
     left: 96.24px;
     top: 511.75px;
@@ -198,9 +198,9 @@
   background: var(--user-color);
   border-radius: 16px;
   transform: rotate(-30deg);
-  @include tablet {
-    display: none;
-  }
+  // @include tablet {
+  //   display: none;
+  // }
   @include mobile {
     left: 423.24px;
     top: 823.75px;
@@ -210,7 +210,7 @@
   position: relative;
   //margin-bottom: 74.83px;
   padding-bottom: 74.83px;
-  @include tablet {
-    padding-bottom: 0;
-  }
+  // @include tablet {
+  //   padding-bottom: 0;
+  // }
 }
