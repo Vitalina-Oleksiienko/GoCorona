@@ -1068,17 +1068,15 @@ summary {
 
 @media screen and (max-width: 319.98px) {
   .experts-info__text {
-    margin-bottom: 30px;
+    padding: 40px 0 30px 0;
     text-align: center;
-    padding-top: 40px;
   }
 }
 
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
   .experts-info__text {
-    margin-bottom: 30px;
+    padding: 40px 0 30px 0;
     text-align: center;
-    padding-top: 40px;
   }
 }
 

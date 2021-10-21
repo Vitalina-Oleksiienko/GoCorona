@@ -150,14 +150,16 @@
 .experts-info__text {
   padding-top: 50px;
   @include mini {
-    margin-bottom: 30px;
+    padding: 40px 0 30px 0;
+    //margin-bottom: 30px;
     text-align: center;
-    padding-top: 40px;
+    //padding-top: 40px;
   }
   @include mobile {
-    margin-bottom: 30px;
+    padding: 40px 0 30px 0;
+    //margin-bottom: 30px;
     text-align: center;
-    padding-top: 40px;
+    //padding-top: 40px;
   }
 }
 .experts-info__text--title {
