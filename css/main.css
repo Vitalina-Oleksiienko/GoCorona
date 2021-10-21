@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  width: min-content;
   margin: 0;
 }
 
@@ -882,12 +883,8 @@ summary {
 
 .experts {
   background: var(--peculiarity-color);
+  background-size: 100%;
   padding: 40px 0;
-}
-
-.experts-container {
-  width: 100%;
-  background: var(--peculiarity-color);
 }
 
 .experts-bgd {
